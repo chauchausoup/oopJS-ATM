@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  display: flex;
+  background: pink;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+  border: 5px rebeccapurple solid;
+  
+}
+
+.container{
+  background: cyan;
+  box-sizing: border-box;
+  border: 5px red solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin:auto 90px;
+  padding: 20px;
+  height: 60vh;
+  
+  
+  
+}
+.screen{
+    background: lightgrey;
+  padding: 5px;
+  
+}
+.screenLower{
+  background: yellowgreen;
+  padding: 5px;
+  
+  
+}
+.keypad{
+  background: rosybrown;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-gap: 5px;
+  border: solid 1px black; 
+  
+  
+}
+
+.keyNo{
+  border: solid 1px black; 
+  
+}
+.keyNo:hover{
+  cursor: pointer;
+  background: pink;
+}
+.enter{
+  text-align: center;
+  border: solid 1px black;
+}
+
+.cashDispenser{
+  background: lightseagreen;
+  padding: 5px;
+  
+  
+}
+.depositSlot{
+  background: lightsteelblue;
+  padding: 5px;
+  
+}
+
+
+
+
+
